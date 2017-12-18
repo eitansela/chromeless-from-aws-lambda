@@ -22,7 +22,7 @@ module.exports.invokeRemoteChromeless = (event, context, callback) => {
   async function run() {
       const chromeless = new Chromeless({
         remote: {
-            endpointUrl: 'https://XXXXXXXXXX.execute-api.eu-west-1.amazonaws.com/dev'
+            endpointUrl: 'https://XXXXXXXXXX.execute-api.eu-west-1.amazonaws.com/dev',
             apiKey: 'your-api-key-here'
           },
       })
